@@ -8,8 +8,8 @@ logger("aloitetaan")
 
 x = int(input("luku1: "))
 y = int(input("luku 2: "))
-print(f"{summa(x, y)}")
-print(f"{erotus(x, y)}")
+print(f"Lukujen summa on {summa(x, y)}")
+print(f"Lukujen erotus on {erotus(x, y)}")
 
 logger("lopetetaan ohjelma")
 print("goodbye!") #tämä on kommentti
